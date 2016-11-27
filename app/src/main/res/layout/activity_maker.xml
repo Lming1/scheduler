@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="이경훈"
+        style="@style/makerhkl"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/maker_hkl" />
+
+    <TextView
+        android:text="백원기"
+        style="@style/makerbwk"
+        android:layout_toRightOf="@+id/maker_hkl"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/maker_hkl"
+        android:id="@+id/maker_bwk" />
+
+    <TextView
+        android:text="변경우"
+        style="@style/makerbgu"
+        android:layout_toRightOf="@+id/maker_bwk"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/maker_hkl"
+        android:id="@+id/maker_bgu" />
+
+
+    <TextView
+        android:text="김승모"
+        style="@style/makerksm"
+        android:layout_below="@+id/maker_hkl"
+        android:layout_alignLeft="@+id/maker_hkl"
+        android:layout_marginTop="30dp"
+        android:id="@+id/maker_ksm" />
+
+    <TextView
+        android:text="엄동규"
+        style="@style/makeredg"
+        android:layout_toRightOf="@id/maker_ksm"
+        android:layout_alignBottom="@id/maker_ksm"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/maker_edg" />
+
+    <TextView
+        android:text="손창윤"
+        style="@style/makerscy"
+        android:layout_toRightOf="@id/maker_edg"
+        android:layout_alignBottom="@id/maker_ksm"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/maker_scy" />
+
+
+</RelativeLayout>

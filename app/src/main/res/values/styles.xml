@@ -95,4 +95,53 @@
         <item name="android:gravity">center_horizontal</item>
     </style>
 
+    <style name="makerhkl">
+        <item name="android:background">@drawable/color_button1</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="makerbwk">
+        <item name="android:background">@drawable/color_button2</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="makerbgu">
+        <item name="android:background">@drawable/color_button3</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="makerksm">
+        <item name="android:background">@drawable/color_button4</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="makeredg">
+        <item name="android:background">@drawable/color_button5</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="makerscy">
+        <item name="android:background">@drawable/color_button6</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+
 </resources>

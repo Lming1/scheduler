@@ -24,6 +24,7 @@
         <activity android:name="com.capston.googolhkl.scheduler.classEditActivity"></activity>
         <activity android:name="com.capston.googolhkl.scheduler.AddMainActivity"></activity>
         <activity android:name="com.capston.googolhkl.scheduler.AddClassActivity"></activity>
+        <activity android:name="com.capston.googolhkl.scheduler.MakerActivity"></activity>
 
         <service android:name="com.capston.googolhkl.scheduler.fcm.MyFirebaseMessagingService">
             <intent-filter>

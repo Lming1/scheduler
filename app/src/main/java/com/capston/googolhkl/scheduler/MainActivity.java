@@ -48,9 +48,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.addSubject:
-                Intent intentSubActivity =new Intent(MainActivity.this, AddMainActivity.class);
-                intentSubActivity.putExtra("data",ci);
-                startActivity(intentSubActivity);
+                Intent intentSubActivity1 =new Intent(MainActivity.this, AddMainActivity.class);
+                intentSubActivity1.putExtra("data",ci);
+                startActivity(intentSubActivity1);
                 break;
 
             case R.id.searchSubject:
@@ -58,7 +58,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.maker:
-                Toast.makeText(this,"서비스 준비 중 입니다",Toast.LENGTH_LONG).show();
+                Intent intentSubActivity3 =new Intent(MainActivity.this, MakerActivity.class);
+                startActivity(intentSubActivity3);
+
                 break;
         }
         return super.onOptionsItemSelected(item);
